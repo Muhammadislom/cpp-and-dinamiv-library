@@ -1,0 +1,19 @@
+﻿Build started 09.04.2021 6:11:11.
+     1>Project "D:\Project\С++\dll\MyLibrary\MyLibrary\MyLibrary.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D MYLIBRARY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\MyLibrary.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt MyLibrary.cpp
+         MyLibrary.cpp
+     1>d:\project\с++\dll\mylibrary\mylibrary\mylibrary.cpp(10): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+     1>d:\project\с++\dll\mylibrary\mylibrary\mylibrary.cpp(15): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+     1>d:\project\с++\dll\mylibrary\mylibrary\mylibrary.cpp(19): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+     1>d:\project\с++\dll\mylibrary\mylibrary\mylibrary.cpp(23): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\С++\dll\MyLibrary\x64\Debug\MyLibrary.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Project\С++\dll\MyLibrary\x64\Debug\MyLibrary.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\С++\dll\MyLibrary\x64\Debug\MyLibrary.lib" /MACHINE:X64 /DLL x64\Debug\dllmain.obj
+         x64\Debug\MyLibrary.obj
+         x64\Debug\stdafx.obj
+         MyLibrary.vcxproj -> D:\Project\С++\dll\MyLibrary\x64\Debug\MyLibrary.dll
+     1>Done Building Project "D:\Project\С++\dll\MyLibrary\MyLibrary\MyLibrary.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.79
